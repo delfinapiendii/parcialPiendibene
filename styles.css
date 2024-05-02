@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    font-family: "Alata", sans-serif;
+}
+body{
+    height: 100%;
+}
+
+nav{
+    background-color: #e8e8e8;
+    text-align: center;
+    height: 15%;
+    top: 0;
+    width: 100%;
+}
+nav h1{
+    font-size: 40px;
+    padding: 40px;
+}
+
+
+.landing {
+    display: flex;
+    justify-content: center;
+    height: 60%;
+}
+.imagen{
+    width: 50%;
+    text-align: center;
+}
+.imagen img{
+    padding: 5%;
+    width: 60%;
+    border-radius: 70px;
+}
+.informacion {
+    width: 60%;
+    padding: 6%;
+    padding-left: 0%;
+}
+.informacion div {
+    padding-bottom: 2%;
+    display: flex;
+}
+
+.informacion div h2{
+    font-weight: 600;
+    font-size:large;
+}
+
+.informacion div p , .informacion div a {
+    font-weight: 400;
+    font-size: large;
+    margin-left: 15px;
+
+}
+
+.informacion .enter, .informacion .enter p{
+    display: block;
+    margin-left: 0px;
+}
+
+.informacion a{
+    text-decoration: none;
+    color: #eb872a;
+}
+
+.informacion a:hover{
+    color: #FFA858;
+}
+
+
+@media screen and (max-width: 800px) {
+    .landing {
+        display: block;
+        }
+    .informacion {
+        width: 80%;
+        padding: 10%;
+        padding-top: 0%;
+    }
+    .informacion div h2{
+        min-width: fit-content;
+    }.informacion div p, .informacion div a{
+        margin-left: 0%;
+    }
+    .informacion div{
+        padding-bottom: 5%;
+        display: block;
+    }
+    .imagen{
+        width: 100%;
+    }
+    .imagen img{
+        width: 350px;
+        padding-bottom: 0%;
+    }
+}
+
+footer{
+    background-color: #e8e8e8;
+    text-align: center;
+    bottom: 0px;
+    bottom: 0;
+    position: relative;
+}
+
+footer img{
+    width: 10%;
+    padding: 2%;
+}
+
+@media screen and (max-width: 600px) {
+    footer img {
+      width: 30%;
+    }
+    footer{
+        position: relative;
+    }
+}
+  
